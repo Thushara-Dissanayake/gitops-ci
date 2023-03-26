@@ -8,6 +8,8 @@ If you get daemonize error while running the command sudo yum install jenkins ja
 
 Install Docker on the EC2 after Jenkins is installed by following the instructions on https://serverfault.com/questions/836198/how-to-install-docker-on-aws-ec2-instance-with-ami-ce-ee-update
 
+install the Docker Pipeline plugin
+
 Run sudo chmod 666 /var/run/docker.sock on the EC2 after Docker is installed.
 
 Install Git on the EC2 by running sudo yum install git
@@ -22,6 +24,7 @@ GitHub Integration Plugin
 Parameterized trigger Plugin
 ArgoCD installation
 Install ArgoCD in your Kubernetes cluster following this link - https://argo-cd.readthedocs.io/en/stable/getting_started/
+    brew install argocd
 
 How to run!
 Follow along with my Udemy Kubernetes course lectures (GitOps Chapter) to understand how it works, detailed setup instructions, with step by step demo. My highest rated Kubernetes EKS discounted Udemy course link in www.cloudwithraj.com
